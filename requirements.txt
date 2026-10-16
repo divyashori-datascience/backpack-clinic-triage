@@ -1,0 +1,13 @@
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.9
+seaborn>=0.13
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+selenium>=4.20
+pynhanes>=1.0
+scikit-learn>=1.5
+statsmodels>=0.14
+streamlit>=1.35
+jupyter
