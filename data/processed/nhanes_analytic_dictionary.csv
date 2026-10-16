@@ -1,0 +1,16 @@
+column,type,kind,source,meaning
+Age in years at screening,float64,predictor,NHANES RIDAGEYR,Age in years at the time of screening. Adults aged 80+ are top-coded at 80.
+Body Mass Index (kg/m**2),float64,predictor,NHANES BMXBMI,Body mass index in kg/m².
+Waist Circumference (cm),float64,predictor,NHANES BMXWAIST,Waist circumference in centimetres.
+systolic,float64,predictor,NHANES BPXOSY1,First oscillometric systolic reading (mmHg). Primary BP predictor: a backpack doctor takes one reading.
+diastolic,float64,predictor,NHANES BPXODI1,First oscillometric diastolic reading (mmHg). Primary BP predictor.
+systolic_avg,float64,sensitivity,Derived from BPXOSY1–3,Mean of up to three systolic readings (mmHg). Used only for the sensitivity comparison in the modelling notebook.
+diastolic_avg,float64,sensitivity,Derived from BPXODI1–3,Mean of up to three diastolic readings (mmHg). Used only for the sensitivity comparison in the modelling notebook.
+Gender,category,predictor,NHANES RIAGENDR,Participant's recorded sex: Male or Female.
+Race/Hispanic origin w/ NH Asian,category,subgroup,NHANES RIDRETH3,Race and ethnicity recode with Non-Hispanic Asian category. Six values.
+age_band,category,subgroup,Derived from Age,"Age band: 20–39, 40–54, 55–69, 70+."
+Pregnancy status at exam,category,exclusion tracking,NHANES RIDEXPRG,"Pregnancy status: Pregnant, Not pregnant, Cannot ascertain, or Not applicable. In the analytic sample only ""Not pregnant"" and ""Not applicable"" remain."
+Doctor told you have diabetes,category,exclusion tracking,NHANES DIQ010,"Ever told by a doctor: Yes, No, or Borderline. In the analytic sample no ""Yes"" values remain."
+Glycohemoglobin (%),float64,outcome measurement,NHANES LBXGH,A1C as a percentage of total haemoglobin. The raw outcome from which the binary and categorical labels are derived.
+dysglycemia,int64,outcome,Derived from Glycohemoglobin,"1 if A1C ≥ 5.7%, else 0. The binary model target."
+a1c_category,category,outcome (descriptive),Derived from Glycohemoglobin,"Normal (< 5.7%), Prediabetes (5.7–6.4%), Diabetes (≥ 6.5%)."
