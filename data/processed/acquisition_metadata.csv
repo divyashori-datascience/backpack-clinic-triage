@@ -1,0 +1,2 @@
+source,endpoint,dataset_id,filter,retrieval_date,row_count,min_prevalence,median_prevalence,max_prevalence,year
+CDC PLACES (Socrata SODA),https://data.cdc.gov/resource/swc5-untb.json,swc5-untb,measureid='DIABETES' AND data_value_type='Crude prevalence',2026-10-16,2957,4.9,13.3,27.1,2023

@@ -1,0 +1,67 @@
+{
+ "GHB_L": {
+  "files": [
+   "GHB_L.xpt"
+  ],
+  "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/GHB_L.xpt",
+  "survey": "2021-2023",
+  "code": "GHB",
+  "component": "Laboratory",
+  "remote_size": 174000,
+  "last_modified": "Wed, 10 Jul 2024 18:02:37 GMT",
+  "published": "September 2024",
+  "downloaded_at": "2026-10-16T08:48:07+00:00"
+ },
+ "BPXO_L": {
+  "files": [
+   "BPXO_L.xpt"
+  ],
+  "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BPXO_L.xpt",
+  "survey": "2021-2023",
+  "code": "BPXO",
+  "component": "Examination",
+  "remote_size": 696720,
+  "last_modified": "Wed, 06 Dec 2023 15:14:41 GMT",
+  "published": "September 2024",
+  "downloaded_at": "2026-10-16T08:48:07+00:00"
+ },
+ "DEMO_L": {
+  "files": [
+   "DEMO_L.xpt"
+  ],
+  "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DEMO_L.xpt",
+  "survey": "2021-2023",
+  "code": "DEMO",
+  "component": "Demographics",
+  "remote_size": 2582160,
+  "last_modified": "Mon, 16 Sep 2024 18:36:04 GMT",
+  "published": "September 2024",
+  "downloaded_at": "2026-10-16T08:48:08+00:00"
+ },
+ "BMX_L": {
+  "files": [
+   "BMX_L.xpt"
+  ],
+  "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/BMX_L.xpt",
+  "survey": "2021-2023",
+  "code": "BMX",
+  "component": "Examination",
+  "remote_size": 1563200,
+  "last_modified": "Tue, 16 Jan 2024 17:33:46 GMT",
+  "published": "September 2024",
+  "downloaded_at": "2026-10-16T08:48:08+00:00"
+ },
+ "DIQ_L": {
+  "files": [
+   "DIQ_L.xpt"
+  ],
+  "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/DIQ_L.xpt",
+  "survey": "2021-2023",
+  "code": "DIQ",
+  "component": "Questionnaire",
+  "remote_size": 847600,
+  "last_modified": "Mon, 04 Dec 2023 23:56:58 GMT",
+  "published": "September 2024",
+  "downloaded_at": "2026-10-16T08:48:08+00:00"
+ }
+}
